@@ -1,0 +1,52 @@
+.C1 {
+    background-color: #474646;
+}
+.C1 li{
+    display: inline-block;
+    padding: 40px;
+    width: 240px;
+}
+.C1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    border: 5px solid rgb(0, 29, 116);
+    background-color: rgb(154, 211, 255);
+    width: 700px;
+    margin: 0 auto;
+}
+
+.container  {
+    color: red;
+}
+
+.container table{
+    margin: 0 auto;
+    width: 100%;
+}
+.container table td label  {
+    background-color: rgb(143, 168, 243);
+    color: rgb(0, 29, 116);
+    padding: 10px;
+    display: block;
+    height: 100%;
+}
+.container table td#phone {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.container table td p{
+    text-align: center;
+    margin: 0%;
+}
+.container table td input:not(#phone){
+    width: 80%;
+    
+}
+.container #terms {
+    text-align: center;
+}

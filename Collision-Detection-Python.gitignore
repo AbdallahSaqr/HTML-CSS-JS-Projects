@@ -1,0 +1,30 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+
+# Ignore system files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore model weights and datasets (if any)
+models/
+data/
+results/
+*.mp4
+*.png
+*.jpg
+
+# Ignore logs and temp files
+logs/
+*.log
+*.tmp
+
+# Ignore Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
